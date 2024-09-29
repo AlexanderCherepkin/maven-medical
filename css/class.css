@@ -1,0 +1,48 @@
+[class*='__container'] {
+    max-width: clamp(58.85rem, 54.539rem + 21.55vw, 73.938rem);
+    margin: 0 auto;
+    padding: 0 0.7rem;
+}
+
+h1 {
+    color: #00856F;
+    font-size: clamp(0.89rem, 2.2rem + 1.05vw, 3.625rem);
+    line-height: clamp(2.33rem, 3.085rem + 1.22vw, 4.188rem);
+    padding-bottom: clamp(1.79rem, 1.659rem + 0.66vw, 2.25rem);
+    padding: 0 1rem;
+}
+
+[class*='__title'] {
+    color: #263633;
+    max-width: clamp(40.14rem, 37.198rem + 14.71vw, 50.438rem);
+    margin: 0 auto;
+    text-align: left;
+    font-size: clamp(1.79rem, 1.659rem + 0.66vw, 2.25rem);
+    line-height: clamp(2.39rem, 2.216rem + 0.87vw, 3rem);
+    text-align: center;
+    padding-bottom: clamp(0.99rem, 0.916rem + 0.37vw, 1.25rem);
+}
+
+[class*='__text'] {
+    max-width: clamp(23.98rem, 22.224rem + 8.78vw, 30.125rem);
+    margin: 0 auto;
+    text-align: center;
+    font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.25rem);
+    line-height: clamp(1.29rem, 1.194rem + 0.48vw, 1.625rem);
+}
+
+[class*='btn'] {
+    font-size: clamp(0.8rem, 0.743rem + 0.29vw, 1rem);
+    border-radius: 0.25rem;
+    background: #00856F;
+    color: #FFF;
+    letter-spacing: 0.04rem;
+    padding: 0.62rem 1.42rem;
+    border-radius: 0.25rem;
+}
+
+[class*='__hr'] {
+    background-color: #c9cdcd;
+    height: 0.0625rem;
+    margin-bottom: 1.94rem;
+}

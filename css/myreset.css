@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+    font-size: clamp(0.938rem, 0.92rem + 0.09vw, 1rem);
+    position: relative;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+ul[class],
+ol[class],
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    /* По требованию заказчика удаляем и далее прописываем в требуемом блоке или месте*/
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+fieldset,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    /* Необходимо для "main" для прижатия "footer" к низу страницы. При нужной необходимости удалить*/
+    line-height: 1;
+    font-size: clamp(0.938rem, 0.92rem + 0.09vw, 1rem);
+    color: #000;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+}
+
+main {
+    flex: 1;
+    /*Прижимает "footer" к низу страницы. При нужной необходимости удалить */
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    vertical-align: top;
+}
+
+input {
+    border: 0.1rem solid;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+img,
+svg {
+    display: block;
+    height: auto;
+}
+
+svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+iframe {
+    border: none;
+}
